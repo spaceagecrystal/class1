@@ -1,14 +1,14 @@
 body {
-	background-image: url("assets/victorian-wallpaper.jpg");
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-
-
+	color: #FFF;
 }
 
 
 
 #containerDiv {
+	background-image: url('victorian.jpg');
+
 	width: 500px;
 	text-align: center;
 	border-style: double;
@@ -25,5 +25,5 @@ body {
 
 a {
 
-	color: black;
+	color: white;
 }
