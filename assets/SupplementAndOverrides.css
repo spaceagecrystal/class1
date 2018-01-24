@@ -1,0 +1,29 @@
+body {
+	background-image: url("assets/victorian-wallpaper.jpg");
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+
+
+}
+
+
+
+#containerDiv {
+	width: 500px;
+	text-align: center;
+	border-style: double;
+	position: relative;
+  	margin: auto;
+  	padding: 30px;
+
+}
+
+#menuDiv {
+	width: 500px;
+	text-align: left;
+}
+
+a {
+
+	color: black;
+}
