@@ -1,0 +1,146 @@
+3/* This is a CSS comment! Use it
+   to organize code or turn CSS attributes
+   "off" without deleting code
+*/
+
+
+
+/*
+	You can use comments to make big divisions
+	in your code if you want !
+*/
+
+/* this is for all the <div> inside of
+	<div id="circles">
+	--> <div></div> <--
+*/
+
+
+
+
+
+
+#squares {
+
+
+}
+
+
+#squares div{
+	height: 10vw; /* vw = viewport width — adjusts
+					 with the size of the browser */
+    width: 10vw;
+    background-color: tomato;
+    margin: 2vw;
+    float: right;
+}
+
+
+#squaresB {
+
+
+}
+
+
+#squaresB div{
+	height: 3vw; /* vw = viewport width — adjusts
+					 with the size of the browser */
+    width: 3vw;
+    background-color: white;
+    margin: 2vw;
+    float: right;
+}
+
+
+
+/* -----------------------
+	Circles
+   ------------------------ */
+
+/* this is for 
+   <div id="circles">
+*/
+#circles {
+    width: 110vw; /* a little larger than the window */
+    position: fixed;
+    top: -5vw; /* moves the div above the 
+    			   frame of the window */
+    left: -5vw; /* moves the div left of the 
+    			   frame of the window */
+    transform: roate(-15deg); /* yep, I'm rotating the whole
+    						   container ;) */
+}
+
+
+/* this is for all the <div> inside of
+	<div id="circles">
+	--> <div></div> <--
+*/
+#circles div {
+	height: 4vw;
+	width: 4vw;
+	background-color: rgb(217, 145, 251);
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+}
+
+/* -----------------------
+	Something new:
+	Triangles !
+   ------------------------ */
+
+/* container for triangles */
+#triangles {
+	width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#triangles div { 
+	/* from 
+	   https://css-tricks.com/examples/ShapesOfCSS/
+	*/
+	width: 0;
+	height: 0;
+	/* "triangles" are just crazy border styles */
+    border-left: 3vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 50vw solid mistyrose;
+	float: left;
+    transform: rotate(20deg); /* time for fun */
+    box-shadow: 20px 20px 20px rgba(50,50,50,.5);
+    /* yes there are blend modes in CSS!! */s
+    mix-blend-mode: overlay;
+}
+
+
+
+#hexagon  {
+
+	width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+#hexagon div{
+  width: 100px;
+  height: 55px;
+  background: rgba(10,255,206, .4);
+  position: relative;
+  float: left;
+  margin: 30px;
+}
+
+body {
+	background-color: rgb(255,255,76);
+	margin: 0; 
+}
+
+
