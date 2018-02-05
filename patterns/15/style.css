@@ -49,6 +49,9 @@
     background-color: rgb(100,100,255);
     margin: 2vw;
     float: right;
+      background: linear-gradient(blue, yellow);
+     mix-blend-mode: overlay;
+
 }
 
 
@@ -114,6 +117,7 @@
     box-shadow: 20px 20px 20px rgba(50,50,50,.5);
     /* yes there are blend modes in CSS!! */s
     mix-blend-mode: overlay;
+    background: linear-gradient(red, yellow);
 }
 
 
@@ -131,16 +135,21 @@
 
 #hexagon div{
   width: 100px;
-  height: 55px;
+  height: 600px;
   background: rgba(10,255,206, .3);
   position: relative;
   float: left;
   margin: 30px;
+  background: linear-gradient(blue, yellow);
+  background-blend-mode: overlay;
 }
 
 body {
 	background-color: rgb(105,70,255);
 	margin: 0; 
+
+	  background: linear-gradient(blue, yellow);
+
 }
 
 

@@ -68,6 +68,7 @@ body {
     background-color: tomato;
     margin: 2vw;
     float: right;
+    mix-blend-mode: multiply;
 }
 
 /* this is for all the class="blue" inside of
