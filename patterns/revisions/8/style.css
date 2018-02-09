@@ -1,0 +1,149 @@
+/* This is a CSS comment! Use it
+   to organize code or turn CSS attributes
+   "off" without deleting code
+*/
+
+body {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b92fef+0,f72e4d+50,f282d0+100 */
+background: #b92fef; /* Old browsers */
+background: -moz-linear-gradient(top, #b92fef 0%, #f72e4d 50%, #f282d0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #b92fef 0%,#f72e4d 50%,#f282d0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #b92fef 0%,#f72e4d 50%,#f282d0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b92fef', endColorstr='#f282d0',GradientType=0 ); /* IE6-9 */
+
+	margin: 0; /* on most browsers the body has a 
+				  default margin of 8px */
+}
+
+/*
+	You can use comments to make big divisions
+	in your code if you want !
+*/
+
+/* this is for all the <div> inside of
+	<div id="circles">
+	--> <div></div> <--
+*/
+
+
+
+#star-six {
+	margin-left: -30px;
+
+
+}
+
+
+
+#star-six div{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgba(255, 200, 251,.5);
+	position: relative;
+	 float: right;
+
+
+
+}
+#star-six div:after {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid rgba(255, 200, 251,.5);
+	position: absolute;
+	content: "";
+	top: 30px;
+	left: -50px;
+}
+	
+
+
+
+
+#squares div{
+	height: 10vw; /* vw = viewport width — adjusts
+					 with the size of the browser */
+    width: 10vw;
+    background-color: tomato;
+    margin: 2vw;
+    float: right;
+}
+
+/* this is for all the class="blue" inside of
+	<div id="circles">
+	--> <div class="blue"></div> <--
+*/
+#squares .blue {
+	background-color: blue;
+}
+
+/* this is for all the id="yellow" inside of
+	<div id="circles">
+	--> <div id="yellow"></div> <--
+*/
+#squares #yellow {
+	background-color: yellow;
+}
+
+/* -----------------------
+	Circles
+   ------------------------ */
+
+/* this is for 
+   <div id="circles">
+*/
+#circles {
+    width: 110vw; /* a little larger than the window */
+    position: fixed;
+    top: -5vw; /* moves the div above the 
+    			   frame of the window */
+    left: -5vw; /* moves the div left of the 
+    			   frame of the window */
+    transform: rotate(-15deg); /* yep, I'm rotating the whole
+    						   container ;) */
+    mix-blend-mode: overlay;
+
+}
+
+
+/* this is for all the <div> inside of
+	<div id="circles">
+	--> <div></div> <--
+*/
+#circles div {
+	height: 12vw;
+	width: 12vw;
+	background-color: rgb(217, 145, 251);
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+}
+
+
+#circlesB {
+    width: 110vw; /* a little larger than the window */
+    position: fixed;
+    top: -5vw; /* moves the div above the 
+             frame of the window */
+    left: -5vw; /* moves the div left of the 
+             frame of the window */
+    mix-blend-mode: overlay;
+
+}
+
+
+
+#circlesB div {
+  height: 20vw;
+  width: 20vw;
+  background-color: rgb(217, 145, 251);
+  border-radius: 50%;
+  margin: 5vw;
+  float: left;
+}
+
+
+
