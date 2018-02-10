@@ -1,0 +1,71 @@
+
+
+#circles_1 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+    
+}
+
+
+#circles_1 div {
+    height: 20vw;
+    width: 20vw;
+    
+    display:block;
+    border-radius: 50%;
+    float: left;
+    margin: -2vw;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffc4d7+0,db3949+100 */
+background: #ffc4d7; /* Old browsers */
+background: -moz-linear-gradient(top, #ffc4d7 0%, #db3949 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffc4d7 0%,#db3949 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffc4d7 0%,#db3949 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc4d7', endColorstr='#db3949',GradientType=0 ); /* IE6-9 */     opacity: .5;
+   
+}
+
+
+#diamond {
+    width: 100vw;
+    height: 100vh;
+    opacity: .5;
+    display:block;
+    float: left;
+}
+
+
+    
+#diamond div{
+    
+    height: 6vw;
+    width: 6vw;
+    
+    display:block;
+    background-color: #ff5380;
+    float: left;
+    margin: 5vw;
+     transform:rotate(90deg);
+}
+
+#diamond div:hover{
+    
+    height: 4vw;
+    width: 4vw;
+    
+    display:block;
+    background-color: #fff;
+    float: left;
+    margin: 6vw;
+     transform:rotate(90deg);
+}
+
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bf0092+1,ff0084+100 */
+background: #bf0092; /* Old browsers */
+background: -moz-linear-gradient(top, #bf0092 1%, #ff0084 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #bf0092 1%,#ff0084 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #bf0092 1%,#ff0084 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf0092', endColorstr='#ff0084',GradientType=0 ); /* IE6-9 */
+}

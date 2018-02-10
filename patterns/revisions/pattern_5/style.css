@@ -1,0 +1,105 @@
+body {
+    background-color: #b3f730;
+}
+
+#moon_1 {
+    width: 70vw;
+    height: 70vh;
+    position: absolute;
+    clear: both;
+    z-index:12;
+}
+
+#moon_1 div {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  background-color:  #B4C5E4;
+  display: block;
+  margin: 5vw;
+  float: left;
+  transform: rotate(45deg);
+ 
+}
+
+
+#moon_1 #rotate {
+  width: 20vw;
+  height: 19vw;
+  transform: rotate(135deg);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcecfc+0,fba6e1+50,ff7cd8+100 */
+background: #fcecfc; /* Old browsers */
+background: -moz-linear-gradient(top, #fcecfc 0%, #fba6e1 50%, #ff7cd8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fcecfc 0%,#fba6e1 50%,#ff7cd8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fcecfc 0%,#fba6e1 50%,#ff7cd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=0 ); /* IE6-9 */
+}
+
+
+#moon_1 div:hover {
+
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  background-color:  #FFF;
+  display: block;
+  margin: 5vw;
+  float: left;
+  transform: rotate(45deg);
+
+
+}
+
+
+#moon_2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both
+}
+
+#moon_2 div {
+  width: 50 vw;
+  height: 50vw;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #FFADC6;
+     display: block;
+    
+    transform: rotate(70deg);
+}
+
+#moon_3 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#moon_3 div {
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #DDA3B2;
+     display: block;
+    
+    transform: rotate(-20deg);
+}
+
+
+/*
+#moon_1 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#moon_1 div {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 red;
+ display: block;
+}
+
+*/
