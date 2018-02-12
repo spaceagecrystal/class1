@@ -20,10 +20,6 @@ body {
 
 
 #triangle div {
-    
-    
-    
-  
     border-left: 10vh solid transparent;
 	border-right: 5vh solid transparent;
 	border-bottom:30vh solid #ffb84a;
@@ -38,9 +34,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: absolute;
-    clear: both;
-    
-    
+    clear: both;  
 }
 
 
@@ -64,35 +58,28 @@ body {
 }
 
 #circles div {
-
 	width: 30vw;
 	height: 30vw;
 	background-color: #ffb4a7;
-    
     opacity: .5;
     margin: 10vw;
     float: right;
     border-radius: 50%;
-    
     display:block;
-    z
 
 }
 
 
 #circles div:hover {
-
 	width: 20vw;
 	height: 20vw;
 	background-color: #fff;
-    
     opacity: .5;
     margin: 14vw;
     float: right;
     border-radius: 50%;
-    
     display:block;
-
+    transition: 0.5s;
 }
 
 

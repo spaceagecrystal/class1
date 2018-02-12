@@ -46,6 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', end
   margin: 5vw;
   float: left;
   transform: rotate(45deg);
+  transition: 0.5s;
 
 
 }

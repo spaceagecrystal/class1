@@ -50,15 +50,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc4d7', end
 }
 
 #diamond div:hover{
-    
     height: 4vw;
     width: 4vw;
-    
     display:block;
     background-color: #fff;
     float: left;
     margin: 6vw;
-     transform:rotate(90deg);
+    transform:rotate(90deg);
+    transition: 0.5s;
+
 }
 
 body {

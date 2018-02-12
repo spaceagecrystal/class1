@@ -78,6 +78,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', end
     float: left;
     border-radius: 50%;
     opacity: .7;
+      transition: 0.5s;
+
 }
 
 
