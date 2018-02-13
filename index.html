@@ -15,20 +15,18 @@
     }
     </style>
     <script>
-    $( function() {
+  $( function() {
     $( "#accordion" ).accordion({
-    heightStyle: "fill"
+      heightStyle: "content"
     });
-    alert("hey");
-    
-
-    } );
+  } );
     </script>
   </head>
   <body background="assets/victorian.jpg">
     <div id="containerDiv">
       
       <div id="menuDiv">
+        <div id="accordion-resizer" class="ui-widget-content">
           <div id="accordion">
             <h1>Exercise</h1>
             <div>
@@ -55,7 +53,8 @@
               <a href="" target="blank">Final: Lorem Ipsum</a>
             </div>
           </div>
-s      </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
