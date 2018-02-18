@@ -1,0 +1,482 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+
+.itemHolder {
+	height: 200px;
+	width: 300px;
+	margin: 5px;
+		float: left; 
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px; 
+	overflow: hidden;
+
+}
+
+
+.numberID {
+	color:#000;
+	width: 24px;
+	text-align: center;
+	vertical-align: top;
+	line-height: 20px;
+	border-style: solid;
+	border-color: #000; 
+	position: absolute;
+	z-index: 12;
+	margin: 5px;
+
+}
+
+/* items */
+
+.item {
+	height: 200px;
+	width: 300px;
+	background: #aedc24;
+	color: yellow;
+	margin: 5px;
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left; 
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px; 
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+
+
+.item.item-css-transition {
+
+	transition: all 500ms ease;
+}
+
+.item.item-css-transitionB {
+
+	transition: all 2000ms ease;
+}
+
+
+
+/* example buttons */
+
+#button-1:hover {
+
+	opacity: .3;
+	background: #aedc24;
+
+}
+
+#button-1:active {
+	background: #ffbda7;
+	opacity: 1;
+}
+
+/* example buttons */
+
+#button-2::after {
+	content: 'Hover Please';
+	color: white;
+}
+
+
+#button-2:hover::after {
+	content: 'Thanks.';
+	color: white;
+	font-weight:bold; 
+}
+
+#button-3{
+
+
+}
+
+.change-yellow {
+
+	background-color: yellow;
+	transition: all 2s;
+}
+
+
+#button-6:hover {
+	width: 100px;
+    background-color: blue;
+
+}
+
+#button-7{
+
+
+}
+
+#button-7:hover {
+
+	position: relative;
+	margin-top: 20%;
+	margin-left: 35%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#button-8{
+
+
+}
+
+#button-8:hover {
+	position: relative;
+	margin-top: 20%;
+	margin-left: 35%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+	background-color: white;
+}
+
+
+#button-9:hover {
+ 
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#afda3a+0,f4fff7+91 */
+background: #afda3a; /* Old browsers */
+background: -moz-linear-gradient(top, #afda3a 0%, #f4fff7 91%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #afda3a 0%,#f4fff7 91%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #afda3a 0%,#f4fff7 91%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afda3a', endColorstr='#f4fff7',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+
+#button-10:active {
+	position: relative;
+	margin-top: 20%;
+	margin-left: 35%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #afda3a;
+	background-color: white;
+		transition: all 1200ms ease;
+
+}
+
+#button-21 {
+ 
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#afda3a+0,f4fff7+91 */
+background: #afda3a; /* Old browsers */
+background: -moz-linear-gradient(top, #afda3a 0%, #f4fff7 91%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #afda3a 0%,#f4fff7 91%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #afda3a 0%,#f4fff7 91%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afda3a', endColorstr='#f4fff7',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+
+#button-22 {
+
+		position: relative;
+	margin-top: 20%;
+	margin-left: 35%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#button-22:active {
+
+		position: relative;
+	margin-top: 19.5%;
+	margin-left: 34.5%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 102px;
+	height: 102px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+
+#button-23:hover::after {
+
+	content: "Hovered";
+
+	
+}
+
+#button-24:active::after {
+
+	content: "Clicked";
+
+	
+}
+
+
+#button-25:active {
+
+	width: 25px;
+	margin-left: 40px;
+	background-color: blue;
+
+	
+}
+
+#button-26:active {
+
+	width: 25px;
+	margin-left: 300px;
+	background-color: blue;
+
+	
+}
+
+#button-27:active {
+
+	height: 50px;
+	background-color: blue;
+
+	
+}
+
+#button-28:active {
+
+	height: 100px;
+	margin-top:400px;
+	background-color: blue;
+
+	
+}
+
+
+#button-29:active {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+
+#button-30:hover {
+  animation: blinker 1s linear infinite;
+}
+
+#button-32:active {
+  animation: blinker .1s linear 2;
+}
+
+#button-31:active {
+  animation: blinker 2s linear 2;
+}
+
+#button-33:hover {
+  animation: blinker .2s linear infinite;
+}
+
+#button-44 {
+	position: relative;
+	margin-top: 30%;
+	margin-left: 17%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 200px;
+	height: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+    box-shadow: 2px 5px #888888;
+
+}
+
+
+
+#button-44:active {
+	position: relative;
+	margin-top: 31%;
+	margin-left: 17%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 200px;
+	height: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+    box-shadow: 1px 3px #000;
+
+}
+
+#button-45 {
+	position: relative;
+	margin-top: 30%;
+	margin-left: 17%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 200px;
+	height: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+    box-shadow: 2px 5px #888888;
+
+}
+
+
+
+#button-45:hover {
+	position: relative;
+	margin-top: 31%;
+	margin-left: 17%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 200px;
+	height: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+    box-shadow: 1px 3px #000;
+
+}
+
+#button-46 {
+	position: relative;
+	margin-top: 30%;
+	margin-left: 17%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 202px;
+	height: 32px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+    box-shadow: 2px 5px #888888;
+
+}
+
+
+
+#button-46:hover {
+	position: relative;
+	margin-top: 31%;
+	margin-left: 17%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 200px;
+	height: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+    box-shadow: 1px 3px #000;
+
+}
+
+
+#button-47:hover {
+	background-image: url("giphy.gif");
+
+}
+
+#button-48:active {
+	background-image: url("unicorn.gif");
+	background-size: 300px 200px;
+
+
+
+}
+
+
+#button-49:active {
+
+	position: relative;
+	margin-top: 35.5%;
+	margin-left: 31.5%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 130px;
+	height: 130px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+
+#button-50 {
+
+	position: relative;
+	margin-top: 35.5%;
+	margin-left: 31.5%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 130px;
+	height: 130px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+
+#button-50:hover {
+
+	position: relative;
+	margin-top: 45.5%;
+	margin-left: 22.5%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100px;
+	width: 180px;
+	height: 180px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+
+
+
+
+
