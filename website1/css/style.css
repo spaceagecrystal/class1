@@ -1,0 +1,135 @@
+
+
+body {
+		background-color: #eadebb;/* sweet blanched almond */
+	margin: 0; /* on most browsers the body has a 
+				  default margin of 8px */
+}
+
+
+#graphicBG {
+	position: absolute;
+	z-index: 0;
+}
+
+#graphicBG img{
+	width: 110vw;
+}
+
+a {
+text-decoration: none;
+color: #FFF;
+
+
+}
+#text {
+	color: #FFF;
+	line-height: 70px;
+	font-size:80px;
+	position: absolute;
+	z-index: 5;
+	margin-top:28.5%;
+}
+
+#colorBarA {
+	position: absolute;
+	z-index:2;
+	margin-left: 500px;
+	width:300px;
+	height: 100vh;
+	background-color: #dadfef;
+	opacity: .5;
+	animation: colorbarA 12s alternate linear infinite;
+}
+
+
+#colorBarB {
+	position: absolute;
+	z-index:3;
+	margin-left: 100px;
+	width:300px;
+	height: 100vh;
+	background-color: #ebdcbe;
+	opacity: .5;
+	animation: colorbarB 17s alternate linear infinite;
+}
+
+
+#colorBarC {
+	position: absolute;
+	z-index:2;
+	margin-left: 700px;
+	width:300px;
+	height: 100vh;
+	background-color: #ecd1bf;
+	opacity: .5;
+	animation: colorbarC 14s alternate linear infinite;
+}
+
+
+#colorBarD {
+	position: absolute;
+	z-index:2;
+	margin-left: 200px;
+	width:300px;
+	height: 100vh;
+	background-color: #d0d6d8;
+	opacity: .5;
+	animation: colorbarD 10s alternate linear infinite;
+}
+
+
+#colorBarE {
+	position: absolute;
+	z-index:2;
+	margin-left: 600px;
+	width:300px;
+	height: 100vh;
+	background-color: #feedd7;
+	opacity: .5;
+	animation: colorbarE 19s alternate linear infinite;
+}
+
+
+#colorBarF {
+	position: absolute;
+	z-index:2;
+	margin-left: 100px;
+	width:300px;
+	height: 100vh;
+	background-color: #eae2c3;
+	opacity: .5;
+	animation: colorbarF 9s alternate linear infinite;
+}
+
+
+@keyframes colorbarA {
+    from {margin-left: 500px;}
+    to {margin-left: 20px;}
+}
+
+@keyframes colorbarB {
+    from {margin-left: 100px;}
+    to {margin-left: 600px;}
+}
+@keyframes colorbarC {
+    from {margin-left: 700px;}
+    to {margin-left: 300px;}
+}
+
+@keyframes colorbarD {
+    from {margin-left: 900px;}
+    to {margin-left: 300px;}
+}
+
+@keyframes colorbarE {
+    from {margin-left: 200px;}
+    to {margin-left: 600px;}
+}
+
+@keyframes colorbarF {
+    from {margin-left: 20px;}
+    to {margin-left: 200px;}
+}
+
+
