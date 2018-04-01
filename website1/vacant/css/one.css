@@ -118,3 +118,19 @@ z-index:90;
     left: 0px;
     width: 300px;
 }
+
+#backButton {
+  text-decoration: none;
+  position: absolute;
+  z-index: 50;
+  margin-top: 10px;
+  color: #FFF;
+  background-color: #ebd2cd;
+  padding: 15px;
+
+}
+
+#backButton a{
+  color: #FFF;
+
+}
