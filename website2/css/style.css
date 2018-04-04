@@ -1,0 +1,63 @@
+
+
+body {
+		background-color: #999;/* sweet blanched almond */
+	margin: 0; /* on most browsers the body has a 
+				  default margin of 8px */
+}
+
+
+#graphicBG {
+	position: absolute;
+	z-index: 0;
+}
+
+#graphicBG img{
+	width: 110vw;
+}
+
+a {
+text-decoration: none;
+color: #FFF;
+
+
+}
+#text {
+	color: #FFF;
+	line-height: 70px;
+	font-size:50px;
+	position: absolute;
+	z-index: 5;
+	margin-left: 15px;
+	margin-top:50%;
+}
+
+#contentMain {
+	position:absolute;
+	text-align:center;
+	margin:auto;
+	z-index: 10;
+	width: 101vw;
+	margin-top:110vh;
+
+
+}
+
+#holder1 {
+	padding: 20px;
+	width: 101vw;
+	height: 120vh;
+	background-color: #000;
+
+}
+
+#contentMain img{
+
+	width: 80vw;
+
+}
+
+.twitter-tweet {
+
+	margin:auto;
+}
