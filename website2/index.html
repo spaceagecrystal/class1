@@ -14,123 +14,210 @@
 
 				line2TextNumber = 1;
 				line2Text1 = "Only two possibilities remain.";
-				line2Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line2Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line2Text2 = "But when I opened my file, it was like opening Pandora’s box.";
+				line2Text3 = "Most basic information, like my birthday, could not be deleted."
 
 
 				line3TextNumber = 1;
 				line3Text1 = "The only thing that has changed is which society lives where.";
-				line3Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line3Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line3Text2 = "On some days, like when I was at a hospital two years ago or when I visited Tokyo last year.";
+				line3Text3 = "This felt like an extraordinary level of detail."
 
 
 				line4TextNumber = 1;
 				line4Text1 = "But there is no guarantee that the agency’s package profits will cover its losses as the number of letters being sent declines.";
-				line4Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line4Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line4Text2 = "“Yet that offered little solace.";
+				line4Text3 = "it was difficult to imagine that the United States would be “welcomed with open arms”";
 
 
 				line5TextNumber = 1;
-				line5Text1 = "It took nine months to wean herself from the drugs";
-				line5Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line5Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line5Text1 = "Even if I could, it wouldn’t be as funny or as powerful as the way she delivers it.";
+				line5Text2 = "Nearly two-thirds of United States soybean exports go to China.";
+				line5Text3 = "But such a program would be time-consuming and costly."
 
 
 				line6TextNumber = 1;
 				line6Text1 = "powered by advances in artificial intelligence, mapping and automation.";
-				line6Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line6Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line6Text2 = "but every summer season, residents flock to the murky waters.";
+				line6Text3 = "From the stage of the Mandarin Oriental hotel, there were tear-jerking tributes."
 
 
 				line7TextNumber = 1;
 				line7Text1 = "this translates to more than 1,800 additional words.";
-				line7Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line7Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line7Text2 = "But policy aside, Jenner struck a more personal note";
+				line7Text3 = "may be bullied in school, they may be a little different."
 
 
 				line8TextNumber = 1;
 				line8Text1 = "It was an unusually frank recognition.";
-				line8Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line8Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line8Text2 = "award the Dalai Lama the Congressional Gold Medal";
+				line8Text3 = "The actor had opened with a jab at his own Spanish-language skills"
 
 
 				line9TextNumber = 1;
 				line9Text1 = "his shouts so loud they could be heard through the doors";
-				line9Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line9Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line9Text2 = "“But another long-standing issue of exclusion persists amid all this hubbub";
+				line9Text3 = "The world “will never be the same again”."
 
 				line10TextNumber = 1;
 				line10Text1 = "He was an intimidating presence, confiding to some colleagues that he preferred to be feared rather than loved.";
-				line10Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line10Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line10Text2 = "“This history has not gone unnoticed.";
+				line10Text3 = "Everybody keeps saying, ‘Oh it’s so different now, oh it’s so different now,’ and it isn’t."
 
 				line11TextNumber = 1;
 				line11Text1 = "Bossert said nothing should be taken “off the table.";
-				line11Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line11Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line11Text2 = "“They have their own point of view.";
+				line11Text3 = "The appalling tirade she delivers could be a self-serving tweetstorm."
 
 				line12TextNumber = 1;
 				line12Text1 = "An urgent investigation is needed and the international community must respond.";
-				line12Text2 = "“It almost feels like Vinton County was preyed upon,” said Lily ";
-				line12Text3 = "powered by advances in artificial intelligence, mapping and automation."
+				line12Text2 = "Several male parts are played by women.";
+				line12Text3 = "Like the childhood favorite, these are homey squares of crispy rice cereal held together with sweet gooeyness."
 
 
 			$("#line1").click(function(){
+				$(this).css("opacity", 0);
 				if(line1TextNumber <= 3){
 					key = "line1Text" + line1TextNumber;
 					line1TextNumber ++;
 					$(this).html(eval(key));
 				}
+				$(this).fadeTo("slow", 1);
 				if(line1TextNumber >= 4){
 					line1TextNumber = 1;
 				}
 			});
 			$("#line2").click(function(){
+				$(this).css("opacity", 0);
 				if(line2TextNumber <= 3){
 					key = "line2Text" + line2TextNumber;
 					line2TextNumber ++;
 					$(this).html(eval(key));
 				}
+				$(this).fadeTo("slow", 1);
 				if(line2TextNumber >= 4){
 					line2TextNumber = 1;
 				}
 			});
 			$("#line3").click(function(){
+				$(this).css("opacity", 0);
 				if(line3TextNumber <= 3){
 					key = "line3Text" + line3TextNumber;
 					line3TextNumber ++;
 					$(this).html(eval(key));
 				}
+				$(this).fadeTo("slow", 1);
 				if(line3TextNumber >= 4){
 					line3TextNumber = 1;
 				}
 			});
 			$("#line4").click(function(){
-				$(this).html("lorem");
+				$(this).css("opacity", 0);
+				if(line4TextNumber <= 3){
+					key = "line4Text" + line4TextNumber;
+					line4TextNumber ++;
+					$(this).html(eval(key));
+				}
+				$(this).fadeTo("slow", 1);
+				if(line4TextNumber >= 4){
+					line4TextNumber = 1;
+				}
 			});
 			$("#line5").click(function(){
-				$(this).html("lorem");
+				$(this).css("opacity", 0);
+				if(line5TextNumber <= 3){
+					key = "line5Text" + line5TextNumber;
+					line5TextNumber ++;
+					$(this).html(eval(key));
+				}
+				$(this).fadeTo("slow", 1);
+				if(line5TextNumber >= 4){
+					line5TextNumber = 1;
+				}
 			});
 			$("#line6").click(function(){
-				$(this).html("lorem");
+				$(this).css("opacity", 0);
+				if(line6TextNumber <= 3){
+					key = "line6Text" + line6TextNumber;
+					line6TextNumber ++;
+					$(this).html(eval(key));
+				}
+				$(this).fadeTo("slow", 1);
+				if(line6TextNumber >= 4){
+					line6TextNumber = 1;
+				}
 			});
 			$("#line7").click(function(){
-				$(this).html("lorem");
+				$(this).css("opacity", 0);
+				if(line7TextNumber <= 3){
+					key = "line7Text" + line7TextNumber;
+					line7TextNumber ++;
+					$(this).html(eval(key));
+				}
+				$(this).fadeTo("slow", 1);
+				if(line7TextNumber >= 4){
+					line7TextNumber = 1;
+				}
 			});
 			$("#line8").click(function(){
-				$(this).html("lorem");
+				$(this).css("opacity", 0);
+				if(line8TextNumber <= 3){
+					key = "line8Text" + line8TextNumber;
+					line8TextNumber ++;
+					$(this).html(eval(key));
+				}
+				$(this).fadeTo("slow", 1);
+				if(line8TextNumber >= 4){
+					line8TextNumber = 1;
+				}
 			});
 			$("#line9").click(function(){
-				$(this).html("lorem");
+				$(this).css("opacity", 0);
+				if(line9TextNumber <= 3){
+					key = "line9Text" + line9TextNumber;
+					line9TextNumber ++;
+					$(this).html(eval(key));
+				}
+				$(this).fadeTo("slow", 1);
+				if(line9TextNumber >= 4){
+					line9TextNumber = 1;
+				}
 			});
 			$("#line10").click(function(){
-				$(this).html("lorem");
+				$(this).css("opacity", 0);
+				if(line10TextNumber <= 3){
+					key = "line10Text" + line10TextNumber;
+					line10TextNumber ++;
+					$(this).html(eval(key));
+				}
+				$(this).fadeTo("slow", 1);
+				if(line10TextNumber >= 4){
+					line10TextNumber = 1;
+				}
 			});
 			$("#line11").click(function(){
-				$(this).html("lorem");
+				$(this).css("opacity", 0);
+				if(line11TextNumber <= 3){
+					key = "line11Text" + line11TextNumber;
+					line11TextNumber ++;
+					$(this).html(eval(key));
+				}
+				$(this).fadeTo("slow", 1);
+				if(line11TextNumber >= 4){
+					line11TextNumber = 1;
+				}
 			});
 			$("#line12").click(function(){
-				$(this).html("lorem");
+				$(this).css("opacity", 0);
+				if(line12TextNumber <= 3){
+					key = "line12Text" + line12TextNumber;
+					line12TextNumber ++;
+					$(this).html(eval(key));
+				}
+				$(this).fadeTo("slow", 1);
+				if(line12TextNumber >= 4){
+					line12TextNumber = 1;
+				}
 			});
 			});
 		</script>

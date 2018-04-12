@@ -92,6 +92,7 @@ text-decoration: none;
 }
 
 .lines {
+	cursor: pointer;
 	padding-bottom: 15px;
 
 
