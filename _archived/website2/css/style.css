@@ -1,7 +1,7 @@
 
 
 body {
-		background-color: #FFF;/* sweet blanched almond */
+		background-color: #999;/* sweet blanched almond */
 	margin: 0; /* on most browsers the body has a 
 				  default margin of 8px */
 				  font-family: 'mrseavessmallcaps';
@@ -19,6 +19,7 @@ body {
 
 a {
 text-decoration: none;
+color: #FFF;
 
 
 }
@@ -63,13 +64,12 @@ text-decoration: none;
 
 
 #holder1B {
-	text-align: left;w
-	color: #333;
+	color: #FFF;
 	padding: 30px;
-	width: 700px;
+	width: 101vw;
 	height: 1500px;
-	background-color: #FFF;
-	font-size: 20px;
+	background-color: #dbdbdb;
+	font-size: 60px;
 
 }
 #contentMain img{
@@ -89,17 +89,4 @@ text-decoration: none;
 .twitter-tweet {
 
 	margin:auto;
-}
-
-.lines {
-	padding-bottom: 15px;
-
-
-}
-
-
-#lineTitle{
-
-	font-size: 45px;
-	padding-bottom: 45px;
 }
