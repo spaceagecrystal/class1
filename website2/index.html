@@ -75,6 +75,15 @@
 				line12Text3 = "Like the childhood favorite, these are homey squares of crispy rice cereal held together with sweet gooeyness."
 
 
+
+
+			$("#starterMessage").click(function(){
+
+			$("#introOverlay").fadeOut("slow");
+			$("#starterMessage").fadeOut("slow");
+
+			});
+
 			$("#line1").click(function(){
 				$(this).css("opacity", 0);
 				if(line1TextNumber <= 3){
@@ -223,6 +232,12 @@
 		</script>
 	</head>
 	<body>
+		<div id="messageHolder">
+		<div id="starterMessage"><div id="exitButton">X</div><div id="starterMessageText"><b>Supplementary Context<br>and Instruction:</b><br><br>This was originally developed with the intention of being orally explained.This is an interactive poem. Phrases were cut from NYT articles and then stored as variables to fill the stanzas of the poem. Click each stanza to create new forms of meaning.<br><br><b>
+		click here to close this window and visit the site.</b></div></div>
+	    </div>
+		<div id="introOverlay"></div>
+
 		<div id="contentMainB">
 			<div id="holder1B"><div id="lineTitle">It almost feels</div>
 			<div id="line1" class="lines">That pilot made a series of recommendations</div>
