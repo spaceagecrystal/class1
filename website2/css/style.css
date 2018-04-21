@@ -119,6 +119,7 @@ text-decoration: none;
 }
 
 #starterMessage{
+	font-size: 14px;
 	font-family: "Helvetica";
 	padding: 30px;
 	border-radius: 25px;
@@ -127,7 +128,7 @@ text-decoration: none;
     margin-top:20vh;
     opacity: 1;
     width: 300px;
-    height: 250px;
+    height: 150px;
     position: absolute;
     z-index: 14;
     left: 0;
@@ -181,7 +182,14 @@ text-decoration: none;
 }
 
 
+#descriptorBottom {
+color: #4e4e4e;
+margin-top: 40px;
+font-size: 14px;
+opacity: 0;
 
+
+}
 
 
 @media print {
@@ -196,6 +204,16 @@ text-decoration: none;
 	font-size: 20px;
 
 }
+
+#descriptorBottom {
+color: #4e4e4e;
+margin-top: 40px;
+font-size: 14px;
+opacity: 1;
+
+
+}
+
 
 
 }
